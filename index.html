@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aman Ramashry Yadav — Data Science & AI portfolio">
+  <title>Aman Yadav | Data Science & AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav-wrap">
+  <nav class="nav container">
+    <a class="brand" href="#home">AY<span>.</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-resume" href="assets/Aman_Ramashry_Yadav_Resume.pdf" download>Download Resume</a>
+    </div>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">DATA SCIENCE & AI • MUMBAI</p>
+      <h1>Building with <span>data.</span><br>Learning with purpose.</h1>
+      <p class="hero-text">I'm <strong>Aman Ramashry Yadav</strong>, a Data Science & AI student who enjoys turning datasets, machine learning models and ideas into practical applications.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">Explore My Work <span>↗</span></a>
+        <a class="btn secondary" href="assets/Aman_Ramashry_Yadav_Resume.pdf" download>Download Resume ↓</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <span>Open to opportunities</span>
+      </div>
+    </div>
+    <div class="hero-card reveal">
+      <div class="orb"></div>
+      <div class="profile-card">
+        <div class="mini-label">CURRENT FOCUS</div>
+        <h3>Machine Learning<br>& Applied AI</h3>
+        <div class="chips"><span>Python</span><span>SQL</span><span>ML</span><span>Streamlit</span></div>
+        <div class="card-line"></div>
+        <div class="stats"><div><b>4+</b><small>ML Apps</small></div><div><b>∞</b><small>Ideas</small></div><div><b>24/7</b><small>Learning</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container two-col">
+    <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>Curious mind.<br><span>Builder mindset.</span></h2></div>
+    <div class="about-copy reveal">
+      <p>I'm currently pursuing a B.Sc. in Data Science & AI. My learning journey combines programming, statistics, data analysis and machine learning with project-based experimentation.</p>
+      <p>I like taking a problem from raw data → model → usable interface, while continuously improving my technical and communication skills.</p>
+      <div class="about-points">
+        <div><b>01</b><span>Learn by building real projects</span></div>
+        <div><b>02</b><span>Focus on practical ML applications</span></div>
+        <div><b>03</b><span>Keep improving every project</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section dark-section">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills that turn<br><span>ideas into builds.</span></h2></div>
+    <div class="skill-grid">
+      <div class="skill-card reveal"><span>01</span><h3>Python</h3><p>Data analysis, ML workflows, scripting and application development.</p></div>
+      <div class="skill-card reveal"><span>02</span><h3>Machine Learning</h3><p>Classification, regression, model selection and evaluation.</p></div>
+      <div class="skill-card reveal"><span>03</span><h3>Data & SQL</h3><p>Statistics, exploratory analysis, SQL querying and Excel.</p></div>
+      <div class="skill-card reveal"><span>04</span><h3>Web & Deployment</h3><p>HTML, CSS and Streamlit-based ML application deployment.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <div class="projects-top">
+      <div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with a<br><span>purpose.</span></h2></div>
+      <p class="project-intro reveal">A growing collection of machine-learning applications, healthcare concepts and product ideas.</p>
+    </div>
+    <div class="project-grid">
+      <article class="project-card featured reveal">
+        <div class="project-number">01</div><div class="project-tag">MACHINE LEARNING</div>
+        <h3>Heart Attack<br>Classification</h3>
+        <p>Classification model packaged as a Streamlit application to predict heart-attack risk from user-provided features.</p>
+        <div class="tech"><span>Python</span><span>Scikit-learn</span><span>Streamlit</span></div>
+        <a href="#" class="project-link" onclick="return projectLink('Heart Attack Classification')">View Project ↗</a>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-number">02</div><div class="project-tag">CLASSIFICATION</div>
+        <h3>Wine Type<br>Prediction</h3>
+        <p>ML classification application that predicts wine type from model input features and provides an interactive interface.</p>
+        <div class="tech"><span>Python</span><span>ML</span><span>Streamlit</span></div>
+        <a href="#" class="project-link" onclick="return projectLink('Wine Type Prediction')">View Project ↗</a>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-number">03</div><div class="project-tag">REGRESSION</div>
+        <h3>Salary<br>Prediction</h3>
+        <p>Regression-based application that estimates salary from selected input variables using a trained ML model.</p>
+        <div class="tech"><span>Python</span><span>Regression</span><span>Streamlit</span></div>
+        <a href="#" class="project-link" onclick="return projectLink('Salary Prediction')">View Project ↗</a>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-number">04</div><div class="project-tag">HEALTHCARE • HACKATHON</div>
+        <h3>HealthGuard</h3>
+        <p>Healthcare hackathon concept focused on AI-assisted health risk awareness and a clear end-to-end application flow.</p>
+        <div class="tech"><span>AI</span><span>Healthcare</span><span>Product</span></div>
+        <a href="#" class="project-link" onclick="return projectLink('HealthGuard')">View Project ↗</a>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-number">05</div><div class="project-tag">PRODUCT CONCEPT</div>
+        <h3>LifeSorted</h3>
+        <p>An AI-powered product concept for organizing goals, routines and creator workflows with intelligent content features.</p>
+        <div class="tech"><span>AI</span><span>Automation</span><span>Product</span></div>
+        <a href="#" class="project-link" onclick="return projectLink('LifeSorted')">View Project ↗</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container cta">
+    <p class="eyebrow">LET'S BUILD SOMETHING</p>
+    <h2>From data to<br><span>real impact.</span></h2>
+    <a class="btn primary" href="#contact">Let's Connect ↗</a>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="container contact-grid">
+    <div class="section-heading reveal"><p class="eyebrow">04 / CONTACT</p><h2>Have an idea?<br><span>Let's talk.</span></h2></div>
+    <div class="contact-card reveal">
+      <p>I'm interested in internships, collaborations, projects and opportunities where I can learn and contribute.</p>
+      <a href="mailto:your-email@example.com">your-email@example.com</a>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer"><span>© 2026 Aman Ramashry Yadav</span><span>Designed & built with curiosity.</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>

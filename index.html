@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aman Yadav — animated developer portfolio."
+    />
+    <title>Aman Yadav | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loader-name">AY<span>.</span></div>
+      <div class="loader-line"><i></i></div>
+    </div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="noise"></div>
+
+    <header class="nav">
+      <a class="logo" href="#home">AY<span>.</span></a>
+      <button
+        class="menu"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span></span><span></span>
+      </button>
+      <nav id="site-navigation" aria-label="Primary navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a
+        ><a href="#projects">Projects</a> <a href="#journey">Journey</a
+        ><a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">
+            <span class="pulse"></span> Available for opportunities
+          </p>
+          <h1>Hi, I'm <span>Aman</span><br /><em>Yadav.</em></h1>
+          <p class="hero-copy">
+            A developer who turns ideas into clean, interactive and useful
+            digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Explore my work <b>↗</b></a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/" target="_blank" rel="noreferrer"
+              >GitHub ↗</a
+            >
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"
+              >LinkedIn ↗</a
+            >
+          </div>
+        </div>
+        <div class="hero-side reveal delay">
+          <div class="code-card">
+            <div class="code-top">
+              <i></i><i></i><i></i><span>portfolio.js</span>
+            </div>
+            <pre><code><span class="purple">const</span> developer = {
+  <span class="blue">name</span>: <span class="green">"Aman Yadav"</span>,
+  <span class="blue">focus</span>: <span class="green">"Web + AI"</span>,
+  <span class="blue">mindset</span>: <span class="green">"Build. Learn. Ship."</span>
+};
+
+<span class="purple">while</span> (learning) {
+  buildSomethingCool();
+}</code></pre>
+          </div>
+        </div>
+        <div class="scroll">SCROLL <span>↓</span></div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-head reveal">
+          <span>01 / ABOUT</span>
+          <h2>Curious mind.<br /><strong>Builder's energy.</strong></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">
+              I'm Aman, a developer focused on learning by building real
+              projects.
+            </p>
+            <p>
+              I enjoy turning problems into practical web experiences,
+              experimenting with AI-powered ideas, and improving projects until
+              they feel simple and intuitive.
+            </p>
+            <p>
+              From hackathon prototypes to dashboards and full-stack work, I'm
+              continuously expanding my toolkit and looking for opportunities to
+              create meaningful products.
+            </p>
+            <a class="text-link" href="#contact"
+              >Let's build something <span>→</span></a
+            >
+          </div>
+          <div class="stats reveal">
+            <div>
+              <strong>01</strong><span>Hackathon<br />projects</span>
+            </div>
+            <div>
+              <strong>∞</strong><span>Ideas<br />to explore</span>
+            </div>
+            <div>
+              <strong>24/7</strong><span>Learning<br />mindset</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="section-head reveal">
+          <span>02 / TOOLKIT</span>
+          <h2>Things I like<br /><strong>working with.</strong></h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill reveal">
+            <span class="num">01</span>
+            <h3>Frontend</h3>
+            <p>HTML · CSS · JavaScript · Responsive UI · Animations</p>
+            <div class="meter"><i style="width: 88%"></i></div>
+          </article>
+          <article class="skill reveal">
+            <span class="num">02</span>
+            <h3>Programming</h3>
+            <p>Python · Problem Solving · Algorithms · Data Structures</p>
+            <div class="meter"><i style="width: 82%"></i></div>
+          </article>
+          <article class="skill reveal">
+            <span class="num">03</span>
+            <h3>Backend</h3>
+            <p>Python-based applications · APIs · Dashboards · Git</p>
+            <div class="meter"><i style="width: 76%"></i></div>
+          </article>
+          <article class="skill reveal">
+            <span class="num">04</span>
+            <h3>AI / Product</h3>
+            <p>
+              AI-assisted prototyping · Healthcare ideas · Rapid MVP building
+            </p>
+            <div class="meter"><i style="width: 72%"></i></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="section-head reveal">
+          <span>03 / SELECTED WORK</span>
+          <h2>Ideas turned<br /><strong>into projects.</strong></h2>
+        </div>
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project-number">01</div>
+            <div class="project-info">
+              <p class="tag">HEALTHCARE · AI · HACKATHON</p>
+              <h3>Health Guard</h3>
+              <p>
+                A healthcare-focused prototype designed to make health
+                information and support more accessible through a simple digital
+                experience.
+              </p>
+              <div class="chips">
+                <span>AI</span><span>Web</span><span>Prototype</span>
+              </div>
+            </div>
+            <a class="project-arrow" href="#contact">↗</a>
+          </article>
+          <article class="project reveal">
+            <div class="project-number">02</div>
+            <div class="project-info">
+              <p class="tag">PYTHON · WEB · DASHBOARD</p>
+              <h3>Developer Dashboard</h3>
+              <p>
+                A practical dashboard project built while exploring Python
+                backend development, metrics, data presentation and iterative
+                feature building.
+              </p>
+              <div class="chips">
+                <span>Python</span><span>Dashboard</span><span>Git</span>
+              </div>
+            </div>
+            <a class="project-arrow" href="#contact">↗</a>
+          </article>
+          <article class="project reveal">
+            <div class="project-number">03</div>
+            <div class="project-info">
+              <p class="tag">FULL STACK · LEARNING</p>
+              <h3>Full-Stack Experiments</h3>
+              <p>
+                A growing collection of web experiments and projects created to
+                strengthen frontend, backend and deployment skills.
+              </p>
+              <div class="chips">
+                <span>JavaScript</span><span>Frontend</span><span>Backend</span>
+              </div>
+            </div>
+            <a class="project-arrow" href="#contact">↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="journey" class="section journey">
+        <div class="section-head reveal">
+          <span>04 / JOURNEY</span>
+          <h2>Always learning.<br /><strong>Always shipping.</strong></h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>2026</span>
+            <div>
+              <h3>Healthcare Hackathon</h3>
+              <p>
+                Worked on a healthcare-focused AI/web prototype and prepared the
+                project for a hackathon presentation.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span>2026</span>
+            <div>
+              <h3>Full-Stack Workshop</h3>
+              <p>
+                Participated in an AWDIZ full-stack workshop, strengthening
+                practical web-development skills.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span>NOW</span>
+            <div>
+              <h3>Building in Public</h3>
+              <p>
+                Continuing to build projects, improve development fundamentals
+                and turn ideas into deployable products.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="contact-inner reveal">
+          <span class="eyebrow">05 / CONTACT</span>
+          <h2>Have an idea?<br /><em>Let's make it real.</em></h2>
+          <p>
+            I'm open to collaborations, projects, learning opportunities and
+            interesting conversations.
+          </p>
+          <a class="mail" href="mailto:your.email@example.com"
+            >your.email@example.com <span>↗</span></a
+          >
+          <div class="contact-links">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            ><a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            ><a href="#home">Back to top ↑</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>© 2026 Aman Yadav</span
+      ><span>Designed & built with curiosity.</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
